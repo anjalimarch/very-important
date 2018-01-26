@@ -1,0 +1,10 @@
+package testInstanceOfoperator;
+
+public class B extends Printable{
+
+	
+	public void b(){
+		
+		System.out.println("b method");
+	}
+}

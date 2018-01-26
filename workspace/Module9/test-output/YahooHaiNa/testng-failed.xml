@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [YahooHaiNa]">
+  <test name="Learning Batch">
+    <classes>
+      <class name="YahooKaApna.YahooLogin"/>
+    </classes>
+  </test> <!-- Learning Batch -->
+  <test name="Application Login">
+    <classes>
+      <class name="YahooKaApna.LoginTest"/>
+    </classes>
+  </test> <!-- Application Login -->
+  <test name="Selling Books">
+    <classes>
+      <class name="YahooKaApna.LogoutTest"/>
+    </classes>
+  </test> <!-- Selling Books -->
+  <test name="Selling Books(failed)">
+    <classes>
+      <class name="YahooKaApna.YahooLogin">
+        <methods>
+          <include name="AfterLast"/>
+          <include name="Beforefirst"/>
+        </methods>
+      </class> <!-- YahooKaApna.YahooLogin -->
+      <class name="YahooKaApna.LoginTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- YahooKaApna.LoginTest -->
+      <class name="YahooKaApna.LogoutTest">
+        <methods>
+          <include name="foooool"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- YahooKaApna.LogoutTest -->
+    </classes>
+  </test> <!-- Selling Books(failed) -->
+</suite> <!-- Failed suite [YahooHaiNa] -->

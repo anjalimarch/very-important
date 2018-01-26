@@ -1,0 +1,17 @@
+package filehandlingTest;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.PrintWriter;
+
+public class removeTheduplicatesInFile {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		PrintWriter pw = new PrintWriter("D:\\very important\\TrainingJavaPrograms\\test.txt");
+		
+		BufferedReader bf = new BufferedReader(new FileReader(new file()));
+	}
+
+}

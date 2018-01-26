@@ -1,0 +1,32 @@
+package Com.Test.JavaCollections;
+
+public class Employee implements Comparable{
+	
+	
+	String name;
+	int empID;
+	
+	
+	public Employee(String name,int empID){
+		
+		this.name=name;
+		this.empID=empID;
+		
+		
+	}
+	
+	
+	public void StringTo(){
+		System.out.println("");
+		
+		int compareTo(Object obj){
+			
+			int eId1=this.empID;
+			Employee e=(Employee)obj;
+			int eId2=e.empID;
+			
+			
+		}
+	}
+
+}

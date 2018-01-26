@@ -1,0 +1,15 @@
+package testInstanceOfoperator;
+
+/*public interface Printable {
+
+}*/
+
+ abstract class Printable{
+	
+	abstract void c();
+	public void a(){
+		System.out.println("anjali");
+		
+	};
+	
+}

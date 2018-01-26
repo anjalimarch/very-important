@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test]" parallel="false">
+  <test name="Selling Books(failed)">
+    <classes>
+      <class name="test.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class>
+      <class name="test.YahooLogin">
+        <methods>
+          <include name="Beforefirst"/>
+          <include name="AfterLast"/>
+        </methods>
+      </class>
+      <class name="test.LogoutTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="foooool"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

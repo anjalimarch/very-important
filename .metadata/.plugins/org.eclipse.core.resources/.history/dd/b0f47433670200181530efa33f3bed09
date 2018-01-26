@@ -1,0 +1,21 @@
+package filehandlingTest;
+
+import java.io.File;
+
+public class TestDisplayOnlyFileName {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File fdir2=new File("D:\\very important\\TrainingJavaPrograms");
+		String [] s=fdir2.list();
+
+		for(String s1:s){
+			
+			
+			System.out.println(s1);
+			
+		}
+	
+	}
+
+}

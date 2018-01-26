@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test">
+
+
+
+
+<test name="Learning Batch">
+    <classes>
+        <class name="test.YahooLogin" ></class>  
+    </classes>
+</test>
+
+<test name="Testtwo Login">
+    <classes>
+        <class name="test.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="Selling Books">
+    <classes>
+        <class name="test.LogoutTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>

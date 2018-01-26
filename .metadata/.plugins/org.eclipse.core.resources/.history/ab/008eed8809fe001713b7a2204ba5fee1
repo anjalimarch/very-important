@@ -1,0 +1,10 @@
+package Com.Test.JavaCollections;
+
+public class TestStack {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

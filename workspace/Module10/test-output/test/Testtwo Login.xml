@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="welcome-PC" name="test.LoginTest" tests="3" failures="0" timestamp="11 Jan 2016 06:47:59 GMT" time="0.015" errors="0">
+  <testcase name="parameterization" time="0.0" classname="test.LoginTest"/>
+  <testcase name="parameterization" time="0.0" classname="test.LoginTest"/>
+  <testcase name="parameterization" time="0.0" classname="test.LoginTest"/>
+</testsuite>

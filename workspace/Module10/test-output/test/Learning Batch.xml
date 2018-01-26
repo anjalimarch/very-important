@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="welcome-PC" name="test.YahooLogin" tests="2" failures="0" timestamp="11 Jan 2016 06:47:59 GMT" time="0.01" errors="0">
+  <testcase name="Login" time="0.001" classname="test.YahooLogin"/>
+  <testcase name="loginCarefully" time="0.0" classname="test.YahooLogin"/>
+</testsuite>

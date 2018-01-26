@@ -1,0 +1,13 @@
+package testInstanceOfoperator;
+
+public class TestInstanceOfOperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Printable p=new B();
+p.b();
+Call c=new Call();
+c.invoke(p);
+	}
+
+}

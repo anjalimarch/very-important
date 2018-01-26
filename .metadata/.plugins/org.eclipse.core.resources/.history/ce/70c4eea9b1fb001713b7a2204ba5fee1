@@ -1,0 +1,18 @@
+package Com.Test.JavaCollections;
+
+public class Employee {
+	
+	
+	String name;
+	int empID;
+	
+	
+	public Employee(String name,int empID){
+		
+		this.name=name;
+		this.empID=empID;
+		
+		
+	}
+
+}

@@ -1,0 +1,38 @@
+package filehandlingTest;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class TestReadfrmTwoFilesToThirdFileLineByline {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		FileReader fr = new FileReader("nanhu.txt");
+		FileReader fr1 = new FileReader("D:\\very important\\TrainingJavaPrograms\\xyz");
+		BufferedReader bf = new BufferedReader(fr);
+		PrintWriter pw = new PrintWriter("pochu.txt");
+		String line = bf.readLine();
+		BufferedReader bf1 = new BufferedReader(fr1);
+		String line1 = bf1.readLine();
+		while (line != null||line1 != null) {
+		if(line != null){
+			pw.println(line);
+			line = bf.readLine();
+		}
+			if(line1 != null)
+			{pw.println(line1);
+			line1 = bf1.readLine();
+		}}
+		
+	/*	while (line1 != null) {
+			
+			System.out.println(line1);
+			
+		}*/
+		pw.close();
+		pw.flush();
+		bf.close();
+	}
+}

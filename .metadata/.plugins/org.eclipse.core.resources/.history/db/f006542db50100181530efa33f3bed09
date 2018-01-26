@@ -1,0 +1,12 @@
+package testInstanceOfoperator;
+
+/*public interface Printable {
+
+}*/
+
+interface Printable{
+	
+	abstract void c();
+	public void a();
+	
+}

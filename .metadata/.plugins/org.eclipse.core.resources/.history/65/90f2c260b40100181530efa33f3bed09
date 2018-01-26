@@ -1,0 +1,11 @@
+package testInstanceOfoperator;
+
+/*public interface Printable {
+
+}*/
+
+ abstract class Printable{
+	
+	
+	
+}

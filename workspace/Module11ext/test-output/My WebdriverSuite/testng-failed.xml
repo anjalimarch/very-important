@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My WebdriverSuite]">
+  <listeners>
+    <listener class-name="webdriver_example_integrated.CustomListener"/>
+  </listeners>
+  <test name="Launch Browser">
+    <classes>
+      <class name="webdriver_example_integrated.exampleone"/>
+    </classes>
+  </test> <!-- Launch Browser -->
+  <test name="Launch Browser1">
+    <classes>
+      <class name="webdriver_example_integrated.firefoxprofiling"/>
+    </classes>
+  </test> <!-- Launch Browser1 -->
+  <test name="Launch Browser2">
+    <classes>
+      <class name="webdriver_example_integrated.LaunchDynamicaly"/>
+    </classes>
+  </test> <!-- Launch Browser2 -->
+  <test name="Launch Browser(failed)">
+    <classes>
+      <class name="webdriver_example_integrated.exampleone">
+        <methods>
+          <include name="Launchbrowser"/>
+          <include name="printtheresult"/>
+        </methods>
+      </class> <!-- webdriver_example_integrated.exampleone -->
+    </classes>
+  </test> <!-- Launch Browser(failed) -->
+  <test name="Launch Browser2(failed)">
+    <classes>
+      <class name="webdriver_example_integrated.exampleone">
+        <methods>
+          <include name="printtheresult"/>
+        </methods>
+      </class> <!-- webdriver_example_integrated.exampleone -->
+      <class name="webdriver_example_integrated.LaunchDynamicaly">
+        <methods>
+          <include name="browser" invocation-numbers="0 2"/>
+        </methods>
+      </class> <!-- webdriver_example_integrated.LaunchDynamicaly -->
+    </classes>
+  </test> <!-- Launch Browser2(failed) -->
+</suite> <!-- Failed suite [My WebdriverSuite] -->

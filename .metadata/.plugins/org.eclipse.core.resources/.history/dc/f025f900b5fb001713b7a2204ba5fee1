@@ -1,0 +1,7 @@
+package Com.Test.JavaCollections;
+
+import java.util.Comparator;
+
+public class MyTestEmpComparator implements Comparator {
+
+}

@@ -1,0 +1,14 @@
+package Com.Test.JavaCollections;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class TestTreeSet1 {
+	
+	TreeSet t=new TreeSet();    //default natural sorting order
+	TreSet t1= new TreeSet(Comparator c);//Customized Sorting
+	
+	
+	
+
+}

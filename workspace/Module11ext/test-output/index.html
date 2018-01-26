@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-My_WebdriverSuite">
+              <span class="suite-name border-failed">My WebdriverSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-My_WebdriverSuite">
+                    <span>C:\Users\welcome\workspace\Module11ext\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-My_WebdriverSuite">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-My_WebdriverSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-My_WebdriverSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-My_WebdriverSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-My_WebdriverSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-My_WebdriverSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-My_WebdriverSuite" class="hide-methods failed suite-My_WebdriverSuite"> (hide)</a> <!-- hide-methods failed suite-My_WebdriverSuite -->
+                      <a href="#" panel-name="suite-My_WebdriverSuite" class="show-methods failed suite-My_WebdriverSuite"> (show)</a> <!-- show-methods failed suite-My_WebdriverSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-My_WebdriverSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_WebdriverSuite" title="webdriver_example_integrated.exampleone" hash-for-method="Launchbrowser">Launchbrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_WebdriverSuite" title="webdriver_example_integrated.LaunchDynamicaly" hash-for-method="browser(Mozila, anjali.mishra02, rudrashashi2)">browser(Mozila, anjali.mishra02, rudrashashi2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_WebdriverSuite" title="webdriver_example_integrated.LaunchDynamicaly" hash-for-method="browser(InternetExplorer, anjali.mishra02, rudrashashi2)">browser(InternetExplorer, anjali.mishra02, rudrashashi2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-My_WebdriverSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-My_WebdriverSuite" class="hide-methods passed suite-My_WebdriverSuite"> (hide)</a> <!-- hide-methods passed suite-My_WebdriverSuite -->
+                      <a href="#" panel-name="suite-My_WebdriverSuite" class="show-methods passed suite-My_WebdriverSuite"> (show)</a> <!-- show-methods passed suite-My_WebdriverSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-My_WebdriverSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_WebdriverSuite" title="webdriver_example_integrated.LaunchDynamicaly" hash-for-method="browser(Chrome, anjali.mishra02, rudrashashi2)">browser(Chrome, anjali.mishra02, rudrashashi2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-My_WebdriverSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-My_WebdriverSuite" class="panel My_WebdriverSuite">
+          <div class="suite-My_WebdriverSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">webdriver_example_integrated.exampleone</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launchbrowser">
+                  </a> <!-- Launchbrowser -->
+                  <span class="method-name">Launchbrowser</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;welcome-PC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:99)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:90)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:117)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at webdriver_example_integrated.exampleone.Launchbrowser(exampleone.java:31)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_WebdriverSuite-class-failed -->
+          <div class="suite-My_WebdriverSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">webdriver_example_integrated.LaunchDynamicaly</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="browser(Mozila, anjali.mishra02, rudrashashi2)">
+                  </a> <!-- browser(Mozila, anjali.mishra02, rudrashashi2) -->
+                  <span class="method-name">browser</span>
+                  <span class="parameters">(Mozila, anjali.mishra02, rudrashashi2)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;welcome-PC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:99)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:90)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:117)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at webdriver_example_integrated.LaunchDynamicaly.browser(LaunchDynamicaly.java:27)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="browser(InternetExplorer, anjali.mishra02, rudrashashi2)">
+                  </a> <!-- browser(InternetExplorer, anjali.mishra02, rudrashashi2) -->
+                  <span class="method-name">browser</span>
+                  <span class="parameters">(InternetExplorer, anjali.mishra02, rudrashashi2)</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;welcome-PC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: InternetExplorerDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:182)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:174)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:146)
+	at webdriver_example_integrated.LaunchDynamicaly.browser(LaunchDynamicaly.java:34)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;welcome-PC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: InternetExplorerDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	... 30 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	... 31 more
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_WebdriverSuite-class-failed -->
+          <div class="suite-My_WebdriverSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">webdriver_example_integrated.LaunchDynamicaly</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="browser(Chrome, anjali.mishra02, rudrashashi2)">
+                  </a> <!-- browser(Chrome, anjali.mishra02, rudrashashi2) -->
+                  <span class="method-name">browser</span>
+                  <span class="parameters">(Chrome, anjali.mishra02, rudrashashi2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_WebdriverSuite-class-passed -->
+        </div> <!-- panel My_WebdriverSuite -->
+        <div panel-name="test-xml-My_WebdriverSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\welcome\workspace\Module11ext\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;My WebdriverSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;webdriver_example_integrated.CustomListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Launch Browser&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;webdriver_example_integrated.exampleone&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Launch Browser --&gt;
+  &lt;test name=&quot;Launch Browser1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;webdriver_example_integrated.firefoxprofiling&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Launch Browser1 --&gt;
+  &lt;test name=&quot;Launch Browser2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;webdriver_example_integrated.LaunchDynamicaly&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Launch Browser2 --&gt;
+  &lt;test name=&quot;Launch Browser(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;webdriver_example_integrated.exampleone&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Launchbrowser&quot;/&gt;
+          &lt;include name=&quot;printtheresult&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- webdriver_example_integrated.exampleone --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Launch Browser(failed) --&gt;
+  &lt;test name=&quot;Launch Browser2(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;webdriver_example_integrated.exampleone&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;printtheresult&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- webdriver_example_integrated.exampleone --&gt;
+      &lt;class name=&quot;webdriver_example_integrated.LaunchDynamicaly&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;browser&quot; invocation-numbers=&quot;0 2&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- webdriver_example_integrated.LaunchDynamicaly --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Launch Browser2(failed) --&gt;
+&lt;/suite&gt; &lt;!-- My WebdriverSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_WebdriverSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My WebdriverSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Launch Browser (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Launch Browser1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Launch Browser2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Launch Browser(failed) (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Launch Browser2(failed) (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_WebdriverSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My WebdriverSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_WebdriverSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My WebdriverSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_WebdriverSuite');
+function tableData_My_WebdriverSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'browser')
+data.setCell(0, 2, 'webdriver_example_integrated.LaunchDynamicaly')
+data.setCell(0, 3, 10807880);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'browser')
+data.setCell(1, 2, 'webdriver_example_integrated.LaunchDynamicaly')
+data.setCell(1, 3, 46864);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Launchbrowser')
+data.setCell(2, 2, 'webdriver_example_integrated.exampleone')
+data.setCell(2, 3, 46043);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'browser')
+data.setCell(3, 2, 'webdriver_example_integrated.LaunchDynamicaly')
+data.setCell(3, 3, 7964);
+window.suiteTableData['My_WebdriverSuite']= { tableData: data, tableDiv: 'times-div-My_WebdriverSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 hours</span>
+              <div id="times-div-My_WebdriverSuite">
+              </div> <!-- times-div-My_WebdriverSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_WebdriverSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My WebdriverSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_WebdriverSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_WebdriverSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">webdriver_example_integrated.exampleone</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">printtheresult</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Launchbrowser</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webdriver_example_integrated.LaunchDynamicaly</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">browser(Mozila, anjali.mishra02, rudrashashi2)</span>
+                <span class="method-start">46246 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">browser(Chrome, anjali.mishra02, rudrashashi2)</span>
+                <span class="method-start">93117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">browser(InternetExplorer, anjali.mishra02, rudrashashi2)</span>
+                <span class="method-start">101082 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

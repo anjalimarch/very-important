@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Sample Suite]">
+  <listeners>
+    <listener class-name="testng_listeners.CustomListener"/>
+  </listeners>
+  <test name="Login">
+    <classes>
+      <class name="testng_listeners.logintest"/>
+    </classes>
+  </test> <!-- Login -->
+  <test name="Login(failed)">
+    <classes>
+      <class name="testng_listeners.logintest">
+        <methods>
+          <include name="xyzdata"/>
+          <include name="xyzdataparttial"/>
+        </methods>
+      </class> <!-- testng_listeners.logintest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->

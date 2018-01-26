@@ -1,0 +1,127 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="test" duration-ms="147" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+    <groups>
+    </groups>
+    <test name="Testtwo Login" duration-ms="15" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="beforeTest()" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="4" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="PASS" signature="parameterization(java.lang.String, java.lang.String)" name="parameterization" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="PASS" signature="parameterization(java.lang.String, java.lang.String)" name="parameterization" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="PASS" signature="parameterization(java.lang.String, java.lang.String)" name="parameterization" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="PASS" signature="afterTest()" name="afterTest" is-config="true" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Selling Books" duration-ms="6" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+      <class name="test.LogoutTest">
+        <test-method status="PASS" signature="beforeSuite()" name="beforeSuite" is-config="true" duration-ms="19" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="SKIP" signature="beforeTest()" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[because of this ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: because of this 
+	at test.LogoutTest.beforeTest(LogoutTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:130)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:624)
+	at org.testng.TestRunner.run(TestRunner.java:592)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:965)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:890)
+	at org.testng.TestNG.run(TestNG.java:824)
+	at org.testng.TestNG.privateMain(TestNG.java:1128)
+	at org.testng.TestNG.main(TestNG.java:1092)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="SKIP" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="SKIP" signature="foooool()" name="foooool" duration-ms="1" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="SKIP" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="SKIP" signature="afterTest()" name="afterTest" is-config="true" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="SKIP" signature="afterSuite()" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Learning Batch" duration-ms="10" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+      <class name="test.YahooLogin">
+        <test-method status="PASS" signature="Beforefirst()" name="Beforefirst" is-config="true" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="PASS" signature="Login()" name="Login" duration-ms="1" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="PASS" signature="loginCarefully()" name="loginCarefully" duration-ms="0" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+        <test-method status="PASS" signature="AfterLast()" name="AfterLast" is-config="true" duration-ms="1" started-at="2016-01-11T12:17:59Z" finished-at="2016-01-11T12:17:59Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

@@ -1,0 +1,9 @@
+package Com.Test.JavaCollections;
+
+public class TestTresetComparator {
+//Customized sorting oerder
+	//comparator java.util package
+	//compare() and equals()
+
+
+}

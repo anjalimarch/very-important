@@ -1,0 +1,19 @@
+package testArray;
+
+public class TestArrayexmple {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+int [] a= new int[5]
+
+for(i=0;i<a.)
+
+for(int i:a){
+	
+	
+	System.out.println();
+}
+	
+	}
+
+}
